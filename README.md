@@ -7,12 +7,12 @@
 LightLoc++ is a sensor-robust and efficient outdoor LiDAR localization framework. It improves the cross-sensor generalization ability of pretrained LiDAR representations while preserving efficient scene-specific training.
 
 <p align="center">
-  <img src="fig/teaser.png" width="900">
+  <img src="fig/teaser.png" width="600">
 </p>
 
 ## SULID Dataset
 
-We introduce **SULID**, a synchronized urban multi-LiDAR dataset collected with representative 32-, 64-, and 128-beam LiDAR sensors. SULID provides aligned cross-sensor observations for learning sensor-robust LiDAR representations.
+We introduce **SULID**, a synchronized urban multi-LiDAR dataset with **24 trajectories covering approximately 219 km across 4 urban scenes**. The dataset is collected using representative 32-, 64-, and 128-beam LiDAR sensors and provides aligned cross-sensor observations for sensor-robust LiDAR representation learning.
 
 <p align="center">
   <img src="fig/dataset.png" width="900">
