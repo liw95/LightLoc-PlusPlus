@@ -7,7 +7,7 @@
 LightLoc++ is a sensor-robust and efficient outdoor LiDAR localization framework. It improves the cross-sensor generalization ability of pretrained LiDAR representations while preserving efficient scene-specific training.
 
 <p align="center">
-  <img src="fig/teaser.png" width="600">
+  <img src="fig/teaser.png" width="450">
 </p>
 
 ## SULID Dataset
