@@ -1,12 +1,22 @@
 # LightLoc-PlusPlus
 
-Official repository for **LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization**.
+**LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization**.
 
 ## Overview
 
 LightLoc++ is a sensor-robust and efficient outdoor LiDAR localization framework. It improves the cross-sensor generalization ability of pretrained LiDAR representations while preserving efficient scene-specific training.
 
-We introduce **SULID**, a synchronized urban multi-LiDAR dataset collected with representative 32-, 64-, and 128-beam LiDAR sensors. Based on SULID, LightLoc++ learns sensor-robust representations through global and local cross-sensor consistency learning.
+<p align="center">
+  <img src="fig/teaser.png" width="900">
+</p>
+
+## SULID Dataset
+
+We introduce **SULID**, a synchronized urban multi-LiDAR dataset collected with representative 32-, 64-, and 128-beam LiDAR sensors. SULID provides aligned cross-sensor observations for learning sensor-robust LiDAR representations.
+
+<p align="center">
+  <img src="fig/dataset.png" width="900">
+</p>
 
 ## Code and Dataset
 
@@ -14,7 +24,7 @@ The source code, pretrained models, and SULID dataset will be released upon acce
 
 ## Paper
 
-The paper will be available on arXiv.
+[arXiv Paper](https://arxiv.org/abs/2608.15317)
 
 ## Citation
 
